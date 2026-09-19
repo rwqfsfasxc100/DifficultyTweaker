@@ -1,2 +1,35 @@
 # DifficultyTweaker
 Allows the difficulty of the game to be adjusted
+
+## Features
+
+Ships:
+- Permanently lose ships
+  - If your ship blows up while you have other ships in the fleet, you will lose your active ship permanently
+- Reduced maintenance drone rep gain
+  - Maintenance drones now require longer use to get good reputation than in Vanilla
+- Damage modifiers
+  - Damage is now increased (tunable on a per-damage basis)
+
+Enceladus:
+- Equipment trade-in fees
+  - It now costs a percentage of an equipment item's worth to trade back into the equipment shop
+- Market tanked
+  - The mineral market is slightly worse off
+  - Effects also backtrack to the cost of consumables
+
+Events:
+- Event restriction reshuffle
+  - Events no longer are limited in where they can spawn, at a cost of being less frequent
+  - The NPCs that dive with you at the 
+- Reduced rogue THICC contents
+  - Rogue containers now come with less ore on average
+- Hostiles using maintenance drones
+  - A simple leak now may not be the life-or-death difference it could be in vanilla
+- Vilcy & Ganymede always bring revengers
+  - Both factions now come more prepared and better fighters than usual
+
+Oddities:
+- Singularity magnetism is now stronger
+- Singularity magnetism areas can now be inverted
+
