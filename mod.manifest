@@ -1,0 +1,215 @@
+[mod_information]
+
+name="Difficulty Tweaker"
+id="hev.DifficultyTweaker"
+author="__hev"
+
+[version]
+
+version_major=1
+version_minor=0
+version_bugfix=0
+
+[configs]
+
+DIFFTWEAK_CONFIG_SECT_SHIPS={
+"emp_damage_modifier": {
+"default": 2.0,
+"description": "DIFFTWEAK_CONFIG_EMP_DAMAGE_MOD_DESC",
+"display_order_position": 4,
+"max": 5.0,
+"min": 1.0,
+"name": "DIFFTWEAK_CONFIG_EMP_DAMAGE_MOD",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+},
+"impact_damage_modifier": {
+"default": 2.0,
+"description": "DIFFTWEAK_CONFIG_IMPACT_DAMAGE_MOD_DESC",
+"display_order_position": 2,
+"max": 5.0,
+"min": 1.0,
+"name": "DIFFTWEAK_CONFIG_IMPACT_DAMAGE_MOD",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+},
+"kinetic_damage_modifier": {
+"default": 2.0,
+"description": "DIFFTWEAK_CONFIG_KE_DAMAGE_MOD_DESC",
+"display_order_position": 3,
+"max": 5.0,
+"min": 1.0,
+"name": "DIFFTWEAK_CONFIG_KE_DAMAGE_MOD",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+},
+"permanently_lose_ships": {
+"default": true,
+"description": "DIFFTWEAK_CONFIG_PERMANENTLY_LOSE_SHIPS_DESC",
+"display_order_position": 0,
+"name": "DIFFTWEAK_CONFIG_PERMANENTLY_LOSE_SHIPS",
+"type": "bool"
+},
+"reduce_maintenance_drone_disposition_gain": {
+"default": 0.2,
+"description": "DIFFTWEAK_CONFIG_REDUCE_MAINT_REP_DESC",
+"display_order_position": 1,
+"max": 1.0,
+"name": "DIFFTWEAK_CONFIG_REDUCE_MAINT_REP",
+"step": 0.05,
+"style": "slider",
+"type": "float"
+},
+"thermal_damage_modifier": {
+"default": 2.0,
+"description": "DIFFTWEAK_CONFIG_THERMAL_DAMAGE_MOD_DESC",
+"display_order_position": 5,
+"max": 5.0,
+"min": 1.0,
+"name": "DIFFTWEAK_CONFIG_THERMAL_DAMAGE_MOD",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+}
+}
+DIFFTWEAK_CONFIG_SECT_ENCELADUS={
+"consumable_cost": {
+"default": 5.0,
+"description": "DIFFTWEAK_CONFIG_CONSUMABLE_COST_DESC",
+"display_order_position": 1,
+"max": 10.0,
+"min": 1.0,
+"name": "DIFFTWEAK_CONFIG_CONSUMABLE_COST",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+},
+"equipment_trade_in_fees": {
+"default": 0.25,
+"description": "DIFFTWEAK_CONFIG_EQUIPMENT_TRADE_IN_FEES_DESC",
+"display_order_position": 2,
+"max": 1.0,
+"name": "DIFFTWEAK_CONFIG_EQUIPMENT_TRADE_IN_FEES",
+"step": 0.05,
+"style": "slider",
+"type": "float"
+},
+"tank_market_val": {
+"default": 0.75,
+"description": "DIFFTWEAK_CONFIG_TANK_MARKET_VAL_DESC",
+"display_order_position": 0,
+"max": 1.0,
+"min": 0.25,
+"name": "DIFFTWEAK_CONFIG_TANK_MARKET_VAL",
+"step": 0.05,
+"style": "slider",
+"type": "float"
+}
+}
+DIFFTWEAK_CONFIG_SECT_EVENTS={
+"always_vilcy_g4a_revenger": {
+"default": true,
+"description": "DIFFTWEAK_CONFIG_ALWAYS_VILCY_G4A_REVENGER_DESC",
+"display_order_position": 0,
+"name": "DIFFTWEAK_CONFIG_ALWAYS_VILCY_G4A_REVENGER",
+"type": "bool"
+},
+"hostiles_use_maintenance_drones": {
+"default": true,
+"description": "DIFFTWEAK_CONFIG_HOSTILE_USE_MAINT_DRONES_DESC",
+"display_order_position": 1,
+"name": "DIFFTWEAK_CONFIG_HOSTILE_USE_MAINT_DRONES",
+"type": "bool"
+},
+"reduce_rogue_thicc_contents": {
+"default": 0.75,
+"description": "DIFFTWEAK_CONFIG_REDUCE_ROGUE_THICC_CONTENTS_DESC",
+"display_order_position": 2,
+"max": 1.0,
+"name": "DIFFTWEAK_CONFIG_REDUCE_ROGUE_THICC_CONTENTS",
+"step": 0.05,
+"style": "slider",
+"type": "float"
+},
+"remove_event_limits": {
+"default": true,
+"description": "DIFFTWEAK_CONFIG_REMOVE_EVENT_LIMITS_DESC",
+"display_order_position": 3,
+"name": "DIFFTWEAK_CONFIG_REMOVE_EVENT_LIMITS",
+"type": "bool"
+},
+"remove_starting_npcs": {
+"default": true,
+"description": "DIFFTWEAK_CONFIG_REMOVE_STARTING_NPCS_DESC",
+"display_order_position": 4,
+"name": "DIFFTWEAK_CONFIG_REMOVE_STARTING_NPCS",
+"type": "bool"
+}
+}
+DIFFTWEAK_CONFIG_SECT_ODDITIES={
+"invert_singularity_attraction": {
+"default": false,
+"description": "DIFFTWEAK_INVERT_SINGULARITY_ATTRACTION_DESC",
+"display_order_position": 3,
+"name": "DIFFTWEAK_INVERT_SINGULARITY_ATTRACTION",
+"type": "bool"
+},
+"invert_singularity_repulsion": {
+"default": false,
+"description": "DIFFTWEAK_INVERT_SINGULARITY_REPULSION_DESC",
+"display_order_position": 2,
+"name": "DIFFTWEAK_INVERT_SINGULARITY_REPULSION",
+"type": "bool"
+},
+"singularity_attract_size_multiplier": {
+"default": 2.5,
+"description": "DIFFTWEAK_SINGULARITY_ATTRACT_SIZE_MULTI_DESC",
+"display_order_position": 5,
+"max": 10.0,
+"min": 1.0,
+"name": "DIFFTWEAK_SINGULARITY_ATTRACT_SIZE_MULTI",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+},
+"singularity_attraction_strength_multiplier": {
+"default": 2.5,
+"description": "DIFFTWEAK_SINGULARITY_ATTRACTION_MULTI_DESC",
+"display_order_position": 1,
+"max": 10.0,
+"min": 1.0,
+"name": "DIFFTWEAK_SINGULARITY_ATTRACTION_MULTI",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+},
+"singularity_repel_size_multiplier": {
+"default": 2.5,
+"description": "DIFFTWEAK_SINGULARITY_REPEL_SIZE_MULTI_DESC",
+"display_order_position": 4,
+"max": 10.0,
+"min": 1.0,
+"name": "DIFFTWEAK_SINGULARITY_REPEL_SIZE_MULTI",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+},
+"singularity_repel_strength_multiplier": {
+"default": 2.5,
+"description": "DIFFTWEAK_SINGULARITY_REPULSION_MULTI_DESC",
+"display_order_position": 0,
+"max": 10.0,
+"min": 1.0,
+"name": "DIFFTWEAK_SINGULARITY_REPULSION_MULTI",
+"step": 0.25,
+"style": "slider",
+"type": "float"
+}
+}
+
+[manifest_definitions]
+
+manifest_version=2.2
